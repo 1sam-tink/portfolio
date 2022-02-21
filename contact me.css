@@ -300,6 +300,8 @@ label {
     .col-3,
     .col-4 {
         flex-basis: 100%;
+        margin: 0 auto;
+        text-align: center;
     }
     .searchbar1 {
         margin: 0 auto;
@@ -307,5 +309,40 @@ label {
     .searchbar {
         margin: 10px;
         margin-top: 50px;
+    }
+    .login {
+        width: 300px;
+        justify-content: center;
+    }
+    .login1 {
+        width: 200px;
+        margin: 0px;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    label {
+        width: 200px;
+        padding: 10px 0px;
+    }
+    .login input {
+        width: 200px;
+    }
+    #heading {
+        width: 200px;
+        text-align: center;
+    }
+    .login button {
+        width: 200px;
+    }
+    .searchbar {
+        width: 200px;
+    }
+    .contact_form {
+        margin-left: 10px;
+        width: 200px;
+    }
+    .button {
+        width: 350px;
+        text-align: right;
     }
 }
