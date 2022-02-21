@@ -243,4 +243,46 @@ button:hover {
         display: block;
         cursor: pointer;
     }
+    .header {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .row {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .col-2,
+    .col-3,
+    .col-4 {
+        flex-basis: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    button {
+        width: 150px;
+        margin-top: 10px;
+    }
+    .col-2 a {
+        width: 400px;
+        text-align: center;
+    }
+    .form {
+        width: 300px;
+        margin-top: 30px;
+    }
+    .icons {
+        padding: 0px;
+        background-color: white;
+        margin: 0px;
+    }
+    .intro {
+        min-width: 300px;
+        margin: 0 auto;
+    }
+    .email {
+        margin: 0px;
+        padding: 0px;
+    }
 }
