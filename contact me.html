@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact me.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dongle&family=Gideon+Roman&family=Mochiy+Pop+P+One&family=Montserrat:wght@100&family=Poppins:wght@300&family=Redressed&family=Roboto+Mono:wght@100;400&family=Roboto:wght@100&family=Sedgwick+Ave&family=Source+Serif+4:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <span alt="logo" width="125px; ">SamuelTinkz</span>
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutme.html">About Me</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="articles.html">Articles</a></li>
+                        <li><a href="contact me.html">Contact Me</a></li>
+
+                    </ul>
+                </nav>
+                <img src="/menu.png" class="menu" onclick="menutoggle()">
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <main>
+        <div class="row">
+            <div class="col-2">
+                <div class="contact_form">
+                    <h3>
+                        Contact Form
+                    </h3>
+                    <input type="text" placeholder="Name" id="">
+                    <input type="email" placeholder="Email" id="">
+                    <input type="number" placeholder="Number" id="">
+                    <input type="text" placeholder="Subject" id="">
+                    <textarea placeholder="Message" id="message" cols="30" rows="10"></textarea>
+                    <div class="button">
+                        <button>Submit</button>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="col-3">
+                    <div class="searchbar1">
+                        <div class="searchbar">
+
+                            <i class="fa fa-search"></i>
+                            <button>Search</button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="login">
+                        <div class="login1">
+                            <span id="heading">Login Here</span>
+                            <label for="Username">Username</label>
+                            <input type="text" name="" id="Username" placeholder="Enter Username">
+                            <label for="password">Password</label>
+                            <input type="password" name="" id="password" placeholder="Enter Password">
+
+                            <button>Login</button>
+                            <span>Don't have an account? Sign up</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script>
+        var menuitems = document.getElementById("menuitems");
+
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (menuitems.style.maxHeight = "0px") {
+                menuitems.style.maxHeight = "200px";
+            } else {
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire me || Samuel Tinkorang</title>
+    <link rel="stylesheet" href="Hire me.css">
+    <script src="https://kit.fontawesome.com/3e44ffb957.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dongle&family=Gideon+Roman&family=Mochiy+Pop+P+One&family=Montserrat:wght@100&family=Poppins:wght@300&family=Redressed&family=Roboto+Mono:wght@100;400&family=Roboto:wght@100&family=Sedgwick+Ave&family=Source+Serif+4:wght@500&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="header">
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <span alt="logo" width="125px; ">SamuelTinkz</span>
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutme.html">About Me</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="articles.html">Articles</a></li>
+                        <li><a href="contact me.html">Contact Me</a></li>
+
+                    </ul>
+                </nav>
+                <img src="/menu.png" class="menu" onclick="menutoggle()">
+
+            </div>
+
+
+        </div>
+    </div>
+    <main>
+        <div class="intro">
+            <h3>
+                Interested in working with me?
+            </h3>
+            <span>
+                Please fill the form below
+            </span>
+
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <form action="" class="contact">
+                    <input type="text" placeholder="Name" id="name">
+                    <input type="email" placeholder="Email" id="e-mail">
+                    <input type="text" placeholder="company" id="company">
+                    <textarea placeholder="Message" id="message" cols="30" rows="5"></textarea>
+                </form>
+                <a href="mailto:samueltinkorang10@gmail.com">
+                    <button>Send Message &#8594;</button>
+
+                </a>
+            </div>
+            <div class="col-2">
+                <div class="form">
+                    <div class="intro1">
+                        <h3>Don't like forms? I got you!</h3>
+                        <span>Here are other ways to get in touch with me</span>
+
+                    </div>
+                    <div class="address">
+                        <div class="email">
+                            <div class="icons">
+                                <i class="fa-solid fa-envelope fa-2xl"></i>
+                            </div>
+                            <div class="life">
+                                <a href="mailto:samueltinkorang10@gmail.com">
+                                    <span>
+                                        samueltinkorang10@gmail.com
+        
+                                        </span>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="address">
+                        <div class="email">
+                            <div class="icons">
+                                <i class="fa-solid fa-mobile-screen-button fa-2xl"></i>
+
+
+                            </div>
+                            <div class="life">
+                                <a href="tel:+233556120066">
+                                    <span>
+                                0556120066
+
+                                </span>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="social">
+                        <div class="social1">
+                            <span>Hit me up on social media</span>
+
+
+                        </div>
+
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook fa-2xl"></i>
+                        <i class="fa-brands fa-instagram fa-2xl"></i>
+                        <i class="fa-brands fa-twitter fa-2xl"></i>
+                        <a href="https://github.com/1sam-tink">
+                            <i class="fa-brands fa-github fa-2xl"></i>
+
+                        </a>
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script>
+        var menuitems = document.getElementById("menuitems");
+
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (menuitems.style.maxHeight = "0px") {
+                menuitems.style.maxHeight = "200px";
+            } else {
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

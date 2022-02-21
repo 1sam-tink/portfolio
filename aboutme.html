@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aboutme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Gideon+Roman&family=Mochiy+Pop+P+One&family=Montserrat:wght@100&family=Poppins:wght@300&family=Roboto+Mono&family=Sedgwick+Ave&family=Source+Serif+4:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Gideon+Roman&family=Mochiy+Pop+P+One&family=Montserrat:wght@100&family=Poppins:wght@300&family=Redressed&family=Roboto+Mono&family=Roboto:wght@100&family=Sedgwick+Ave&family=Source+Serif+4:wght@500&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3e44ffb957.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dongle&family=Gideon+Roman&family=Mochiy+Pop+P+One&family=Montserrat:wght@100&family=Poppins:wght@300&family=Redressed&family=Roboto+Mono:wght@100;400&family=Roboto:wght@100&family=Sedgwick+Ave&family=Source+Serif+4:wght@500&display=swap"
+        rel="stylesheet">
+
+    <title>About Me || Samuel Tinkorang</title>
+</head>
+
+<body>
+    <div class="header">
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <span alt="logo" width="125px; ">SamuelTinkz</span>
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutme.html">About Me</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="articles.html">Articles</a></li>
+                        <li><a href="contact me.html">Contact Me</a></li>
+
+                    </ul>
+                </nav>
+                <img src="/menu.png" class="menu" onclick="menutoggle()">
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <main>
+        <div class="testimonial">
+            <h3>Testimonials</h3>
+            <br>
+            <br>
+            <br>
+            <span>What are people saying about me?</span>
+
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <i class="fa-solid fa-user fa-2xl"></i>
+
+                <div class="sam">
+                    <span>
+                        Samuel Tinkorang is hard working and always willing to learn. His eagerness to learn drew me  to him and his consistency has brought about great results in his life as a web Developer.
+                    </span>
+
+                </div>
+
+                <h3>
+                    Godfred Timpong Jones
+                </h3>
+                <h4> Web Developer, Accra</h4>
+            </div>
+            <div class="col-3">
+                <i class="fa-solid fa-user fa-2xl"></i>
+
+                <div class="sam">
+                    <span>
+                        Samuel is incredibly creative and easy to work with. His ability to study user behaviour and patterns to ensure a website suits the needs of the end user is unmatched. He is fun, playful, but yet professional.
+                    </span>
+
+                </div>
+
+                <h3>
+                    Langford Quarshie
+                </h3>
+                <h4>Web Developer, Accra</h4>
+            </div>
+            <div class="col-3">
+                <i class="fa-solid fa-user fa-2xl"></i>
+
+                <div class="sam">
+                    <span>When i think "exceptional user experience" i think of Samuel Tinkorang. He is greatly skilled,works hard and always delivers on time. He is very collaborative as well.</span>
+
+                </div>
+                <h3>Rita Clottey</h3>
+                <h4>
+                    UI/UX designer, Accra
+                </h4>
+            </div>
+        </div>
+
+    </main>
+    <script>
+        var menuitems = document.getElementById("menuitems");
+
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (menuitems.style.maxHeight = "0px") {
+                menuitems.style.maxHeight = "200px";
+            } else {
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

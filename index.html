@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double D|| Home</title>
+    <link href='https://css.gg/menu.css' rel='stylesheet'>
+    <link rel="stylesheet" href="DoubleD.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:wght@100&family=Sedgwick+Ave&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3e44ffb957.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dongle&family=Gideon+Roman&family=Mochiy+Pop+P+One&family=Montserrat:wght@100&family=Poppins:wght@300&family=Redressed&family=Roboto+Mono:wght@100;400&family=Roboto:wght@100&family=Sedgwick+Ave&family=Source+Serif+4:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <span alt="logo" width="125px; ">SamuelTinkz</span>
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutme.html">About Me</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="articles.html">Articles</a></li>
+                        <li><a href="contact me.html">Contact Me</a></li>
+                        <li><a href="Hire me.html">Hire me</a></li>
+
+                    </ul>
+                </nav>
+                <img src="/menu.png" class="menu" onclick="menutoggle()">
+
+            </div>
+
+
+        </div>
+    </div>
+    <main>
+        <div class="row">
+            <div class="col-2">
+                <div class="mom">
+                    <span class="sam">
+                        Hey, I'm Samuel Tinkorang,
+                    </span>
+                    <h2>
+                        A Front End Developer
+                    </h2>
+                    <span class="lina">I am based in Accra, Ghana and i specialize in front End Web Development.I design day-to-day interactive interface for users around the world, ensuring they have utmost experience with each website i design</span>
+                    <button>
+                    <a href="Hire me.html">Hire me &#8594; </a>
+                    <a href="mailto:samueltinkorang10gamil.com">
+                    <i  class="fa-solid fa-envelope fa-2xl"></i>
+
+                    </a>
+
+                    </button>
+
+
+                </div>
+
+            </div>
+            <div class="col-2">
+                <img src="/toyamakanna-Ej_M7lrnDTI-unsplash.jpg" alt="">
+            </div>
+
+        </div>
+
+    </main>
+    <script>
+        var menuitems = document.getElementById("menuitems");
+
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (menuitems.style.maxHeight = "0px") {
+                menuitems.style.maxHeight = "200px";
+            } else {
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

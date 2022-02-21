@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="articles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Mochiy+Pop+P+One&family=Montserrat:wght@100&family=Poppins:wght@300&family=Sedgwick+Ave&family=Source+Serif+4:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Mochiy+Pop+P+One&family=Montserrat:wght@100&family=Poppins:wght@300&family=Roboto+Mono&family=Sedgwick+Ave&family=Source+Serif+4:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:wght@100&family=Sedgwick+Ave&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dongle&family=Gideon+Roman&family=Mochiy+Pop+P+One&family=Montserrat:wght@100&family=Poppins:wght@300&family=Redressed&family=Roboto+Mono:wght@100;400&family=Roboto:wght@100&family=Sedgwick+Ave&family=Source+Serif+4:wght@500&display=swap"
+        rel="stylesheet">
+    <title>Articles || Samuel Tinkorang</title>
+
+
+</head>
+
+<body>
+    <div class="header">
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <span alt="logo" width="125px; ">SamuelTinkz</span>
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutme.html">About Me</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="articles.html">Articles</a></li>
+                        <li><a href="contact me.html">Contact Me</a></li>
+
+                    </ul>
+                </nav>
+                <img src="/menu.png" class="menu" onclick="menutoggle()">
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <main>
+        <span class="article">Articles</span>
+        <div class="col-1">
+            <span>Here are articles I've written on Product Design</span>
+            <button>View all articles  &#8594;</button>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <img src="/safar-safarov-MSN8TFhJ0is-unsplash.jpg" alt="">
+            </div>
+            <div class="col-2">
+                <span class="first">
+                    UX Research - 02/02/22
+                </span>
+                <span class="second">
+                    Where Research Ends And Design Begins
+                </span>
+                <span class="third">
+                    A lof of designers have a hard time understanding the place of research in a project.They do a quick interview with two friends at the start of the project and run with the data gathered from this. But is this enough? Or do we need to throw in our mum in the interview list to make it better? I cover this and lots more in this article. Read on.
+                </span>
+                <button>Read Post  &#8594;</button>
+            </div>
+
+            <div class="col-2">
+                <img src="/paige-cody-ITTqjS3UpoY-unsplash.jpg" alt="">
+            </div>
+            <div class="col-2">
+                <span class="first">
+                    UI Research - 02/02/22
+                </span>
+                <span class="second">
+                    Make Your Buttons Look Like Buttons
+                </span>
+                <span class="third">
+                    A lof of designers have a hard time understanding the place of research in a project.They do a quick interview with two friends at the start of the project and run with the data gathered from this. But is this enough? Or do we need to throw in our mum in the interview list to make it better? I cover this and lots more in this article. Read on.
+                </span>
+                <button>Read Post  &#8594;</button>
+            </div>
+        </div>
+    </main>
+    <script>
+        var menuitems = document.getElementById("menuitems");
+
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (menuitems.style.maxHeight = "0px") {
+                menuitems.style.maxHeight = "200px";
+            } else {
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
