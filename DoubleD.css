@@ -39,7 +39,8 @@ a {
 }
 
 a:hover {
-    background: cyan;
+    color:white;
+    background-color: tomato;
     transition: background 0.5s;
 }
 

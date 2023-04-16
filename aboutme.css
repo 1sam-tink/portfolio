@@ -5,8 +5,8 @@
 }
 
 .header {
-    border-bottom: 1px solid red;
-    background-color: lightgoldenrodyellow;
+    border-bottom: 1px solid yellow;
+    background-color: orangered;
     width: 100%;
 }
 
@@ -33,12 +33,13 @@ nav ul li {
 
 a {
     text-decoration: none;
-    color: red;
+    color: white;
     padding: 10px 20px;
 }
 
 a:hover {
-    background: cyan;
+    background: pink;
+    color: black;
     transition: background 0.5s;
     border-radius: 10px;
 }
@@ -59,7 +60,7 @@ p {
     font-family: 'Roboto Mono', monospace;
     font-family: 'Sedgwick Ave', cursive;
     font-family: 'Source Serif 4', sans-serif;
-    color: orangered;
+    color: white;
     font-size: 30px;
 }
 
