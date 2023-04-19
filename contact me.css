@@ -143,11 +143,14 @@ input:focus {
 
 .searchbar {
     display: flex;
-    border-bottom: 1px solid red;
     justify-content: space-between;
     width: 300px;
 }
-
+.searchbar h3{
+    font-size: 30px;
+    margin-left: 20px;
+    color: brown;
+}
 .searchbar button {
     padding: 5px 10px;
     background: red;
