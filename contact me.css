@@ -31,13 +31,13 @@ nav ul li {
     margin-right: 20px;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: white;
     padding: 10px 20px;
 }
 
-a:hover {
+nav a:hover {
     transition: background 0.3s;
     background: rgb(255,214,255);
     border-radius: 10px;
@@ -113,10 +113,12 @@ p {
     border-radius: 10px;
     transition: background 0.5s;
 }
-
-.contact_form button:hover {
-    background: cyan;
+.contact_form a{
+    text-decoration: none;
+    color: white;
 }
+
+
 
 .contact_form h3 {
     font-size: 30px;
@@ -187,6 +189,10 @@ input:focus {
     display: inline-block;
     width: 300px;
     padding: 20px 10px;
+}
+.login a {
+    text-decoration: none;
+    color: white;
 }
 
 .logo {

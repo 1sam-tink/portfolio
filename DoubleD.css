@@ -31,7 +31,7 @@ nav ul li {
     margin-right: 20px;
 }
 
-a {
+ a {
     text-decoration: none;
     color: red;
     padding: 10px 20px;
@@ -152,6 +152,7 @@ main {
 
 body {
     width: 100%;
+    
 }
 
 .logo {
