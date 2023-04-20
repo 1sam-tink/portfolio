@@ -91,10 +91,11 @@ main {
 }
 
 .col-2 img {
-    max-width: 50%;
+    max-width: 55%;
     border: 2px solid red;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-    transform: rotate(270deg);
+    transform: rotate(360deg);
+    margin-top: 100px;
 }
 
 .mom h2 {
@@ -193,5 +194,8 @@ body {
     .menu {
         display: block;
         cursor: pointer;
+    }
+    .col-2 img{
+        margin-top: 0px;
     }
 }
